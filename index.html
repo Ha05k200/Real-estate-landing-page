@@ -1,0 +1,226 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UrbanNest | Real Estate</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body id="top">
+  <header class="site-header">
+    <nav class="navbar navbar-expand-lg navbar-dark py-3">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#top">UrbanNest</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto me-lg-4">
+            <li class="nav-item"><a class="nav-link" href="#properties">Properties</a></li>
+            <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+          <a href="#contact" class="btn btn-accent">Book a Visit</a>
+        </div>
+      </div>
+    </nav>
+
+    <section class="hero container">
+      <div class="row align-items-center g-4 py-5">
+        <div class="col-lg-6">
+          <span class="hero-kicker">Premium Real Estate Experience</span>
+          <h1 class="hero-title mt-3">Find a space that matches the life you want.</h1>
+          <p class="hero-subtitle mt-3">Explore high-value homes, modern apartments, and investment-ready properties across top neighborhoods.</p>
+          <div class="d-flex flex-wrap gap-3 mt-4">
+            <a href="#properties" class="btn btn-accent btn-lg">Browse Listings</a>
+            <a href="#services" class="btn btn-outline-light btn-lg">Our Services</a>
+          </div>
+
+          <div class="hero-stats row g-3 mt-4">
+            <div class="col-4">
+              <div class="stat-card">
+                <h3>4.2K+</h3>
+                <p>Happy Clients</p>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="stat-card">
+                <h3>1.9K+</h3>
+                <p>Properties Sold</p>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="stat-card">
+                <h3>28</h3>
+                <p>Prime Areas</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="hero-image-wrap">
+            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80" class="img-fluid hero-image" alt="Modern luxury home" />
+            <div class="hero-floating-card">
+              <p class="mb-1">Featured Home</p>
+              <h5 class="mb-1">Lakeview Residence</h5>
+              <small>$1,250,000 • 4 Beds • 3 Baths</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section id="properties" class="section-space">
+      <div class="container">
+        <div class="section-heading d-flex flex-wrap justify-content-between align-items-end gap-3">
+          <div>
+            <p class="section-kicker">Top Picks</p>
+            <h2>Featured Properties</h2>
+          </div>
+          <a href="#properties" class="link-accent">View all properties</a>
+        </div>
+
+        <div class="row g-4 mt-1">
+          <div class="col-md-6 col-lg-4">
+            <article class="property-card">
+              <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=900&q=80" alt="Contemporary villa" />
+              <div class="p-3">
+                <h3>Contemporary Villa</h3>
+                <p>Austin, Texas</p>
+                <div class="property-meta">
+                  <span>4 Beds</span><span>3 Baths</span><span>2,700 sqft</span>
+                </div>
+                <div class="price-row mt-3">
+                  <strong>$940,000</strong>
+                  <button type="button" class="btn btn-sm btn-accent">Details</button>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <article class="property-card">
+              <img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=900&q=80" alt="Urban apartment" />
+              <div class="p-3">
+                <h3>Urban Penthouse</h3>
+                <p>Seattle, Washington</p>
+                <div class="property-meta">
+                  <span>3 Beds</span><span>2 Baths</span><span>1,950 sqft</span>
+                </div>
+                <div class="price-row mt-3">
+                  <strong>$810,000</strong>
+                  <button type="button" class="btn btn-sm btn-accent">Details</button>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <article class="property-card">
+              <img src="https://images.unsplash.com/photo-1605146769289-440113cc3d00?auto=format&fit=crop&w=900&q=80" alt="Family house" />
+              <div class="p-3">
+                <h3>Garden Family Home</h3>
+                <p>Denver, Colorado</p>
+                <div class="property-meta">
+                  <span>5 Beds</span><span>4 Baths</span><span>3,200 sqft</span>
+                </div>
+                <div class="price-row mt-3">
+                  <strong>$1,060,000</strong>
+                  <button type="button" class="btn btn-sm btn-accent">Details</button>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section-space alt-bg">
+      <div class="container">
+        <div class="section-heading text-center">
+          <p class="section-kicker">What We Offer</p>
+          <h2>Services Built Around Your Goals</h2>
+        </div>
+
+        <div class="row g-4 mt-1">
+          <div class="col-md-4">
+            <div class="service-card">
+              <h3>Property Buying</h3>
+              <p>Data-backed recommendations to help you buy the right property at the right value.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-card">
+              <h3>Property Selling</h3>
+              <p>Smart listings, professional media, and strong negotiation to maximize sale outcomes.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-card">
+              <h3>Investment Advisory</h3>
+              <p>Market-driven strategies for rental yield, appreciation, and long-term portfolio growth.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials" class="section-space">
+      <div class="container">
+        <div class="section-heading text-center">
+          <p class="section-kicker">Client Stories</p>
+          <h2>Trusted by Home Buyers and Investors</h2>
+        </div>
+
+        <div class="row g-4 mt-1">
+          <div class="col-md-6 col-lg-4">
+            <blockquote class="testimonial-card">
+              <p>UrbanNest helped us close on our dream home in under three weeks. Their guidance was clear and practical.</p>
+              <footer>Priya S. • First-time Buyer</footer>
+            </blockquote>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <blockquote class="testimonial-card">
+              <p>The team understood our investment goals and found a property with strong rental potential in a prime location.</p>
+              <footer>Daniel R. • Investor</footer>
+            </blockquote>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <blockquote class="testimonial-card">
+              <p>Selling our old house felt effortless. Great market positioning and fast results at a better-than-expected price.</p>
+              <footer>Ana M. • Seller</footer>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section-space cta-section">
+      <div class="container cta-box text-center">
+        <p class="section-kicker text-light">Start Today</p>
+        <h2>Ready to find your next property?</h2>
+        <p>Speak with our experts and get a curated list of properties tailored to your budget and lifestyle.</p>
+        <a href="#contact" class="btn btn-light btn-lg mt-2">Schedule Consultation</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="py-4 text-center">
+    <div class="container">
+      <p class="mb-1">&copy; <span id="year"></span> UrbanNest Real Estate</p>
+      <small>Designed for responsive web experiences using Bootstrap.</small>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+</html>
